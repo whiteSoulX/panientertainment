@@ -27,7 +27,7 @@
                 <div class="container-nav flex">
                 <!-- Site Logo -->
                  <a href="" class="navbar-logo"><img src="Images/logo.png" alt=""></a>
-                 <button class="navbar-toggler" type="button">
+                 <button onclick="openNav()" class="navbar-toggler" type="button">
                     <span class="fa-solid fa-bars"></span>
                  </button>
                 
@@ -56,7 +56,7 @@
                 <div class="nav-right flex">
                     <p>Call Us: <span>+8801306060606</span></p>
                     <!-- Header BUttons -->
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i onclick="open_search()" class="fa-solid fa-magnifying-glass"></i>
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </nav>
@@ -64,7 +64,7 @@
              <aside id="mySidepanel" class="sidepanel">
                 <div class="sidebar flex">
                     <a href=""><img src="Images/logo.png" alt="logo"></a>
-                    <button type="button" class="closebtn btn_hover1">
+                    <button onclick="closeNav()" type="button" class="closebtn btn_hover1">
                         <i class="fa-solid fa-xmark"></i>
                     </button>
                     
@@ -97,7 +97,75 @@
                     </ul>
                 </div>
              </aside>
+
+             <!-- Search Bar -->
+              <div id="search-bar">
+                <div onclick="close_search()"  class="btn_hover1">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <form action="#" method="search">
+                    <input type="search" required placeholder="Search...">
+                    <button type="submit" class="btn_hover1"> Search</button>
+
+                </form>
+              </div>
+
+              <!-- Right SideBar -->
+               <section class="header-right-sidebar" id="right_side">
+                <div class="flex flex-sb">
+                    <a href="/"><img src="Images/right-side-logo.png" alt="Logo"></a>
+                    <button class="close_rightsidebar fa-solid fa-xmark"></button>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quaerat eaque maiores!</p>
+                <a href="" class="btn_hover1">Discover More</a>
+                <hr>
+                <h4>Connected Details</h4>
+                <ul class="flex">
+                    <li>
+                        <a href="#" class="fa-solid fa-phone"></a>
+                        <a href="#" class="text-lowercase">your@gamil.com</a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa-solid fa-envelope"></a>
+                        <a href="#" >+123-456-7890</a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa-solid fa-regular fa-clock"></a>
+                        <a href="#">Office Hours: 8AM - 11PM Sunday - Weekend day</a>
+                    </li>
+                </ul>
+                <span class="flex>
+                    <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+                </span>
+               </section>
          </header>
+         <!-- ====== 1.1 End Header Section ========-->
+         <!-- ====== 1.2 Hero Section ========-->
+
+         <section class="hero">
+            <div class="container">
+                <div>
+                    <div class="hero-social-icon flex">
+                       <a href="#"><i class="fa-brands fa-facebook"></i></a> 
+                       <a href="#"><i class="fa-brands fa-instagram"></i></a> 
+                       <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+                       <hr>
+                    </div>
+                    <div class="center-data flex flex-col gap-1">
+                        <h1>DIGITAL SERVICE</h1>
+                        <h3>BUILDING YOUR DIGITALLY</h3>
+                        <div class="center-btn flex">
+                            <a href="" class="btn_hover1">Get Started</a>
+                            <a href="" class="btn_hover2">Dicover More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
     </div>
 </div>
 
@@ -107,7 +175,7 @@
 
 
 
-    <!-- Scroll animation lib
+    <!-- Scroll animation lib -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
@@ -115,19 +183,22 @@
             duration: 1250,
             once: true,
         });
-    </script> -->
+    </script> 
 
     <!-- jquery js cdn -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
         integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
     <!-- jquery min js cdn -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
 
     <!-- slick carousel min js cdn -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-        integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=" crossorigin="anonymous"></script> -->
+     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=" crossorigin="anonymous"></script>
+
+        <!-- Custom JS -->
+         <script  src="./js/script.js"></script>
 </body>
 </html>
