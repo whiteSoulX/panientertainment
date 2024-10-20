@@ -6,17 +6,17 @@
     <title>Pani Entertainment</title>
 <link rel="shortcut icon " href="Images/fave_icon.png" type="image/x-icon">
 <!-- link css -->
- <link rel="stylesheet" href="css/style.css">
- <link rel="stylesheet" href="css/easy.css">
- <link rel="stylesheet" href="css/slick.min.css">
-    <!-- Scroll cdn  -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/easy.css">
+<link rel="stylesheet" href="css/slick.min.css">
+   <!-- Scroll cdn  -->
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 <!-- Font Awesome CDN for icon -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
 </head>
+
 <body>
     
 <div class="site-wrapper">
@@ -24,12 +24,13 @@
         <!-- ====== 1.1 Header Section ========-->
          <header>
             <nav class="container navbar">
-                <div class="container_nav flex">
+                <div class="container-nav flex">
                 <!-- Site Logo -->
                  <a href="" class="navbar-logo"><img src="Images/logo.png" alt=""></a>
                  <button class="navbar-toggler" type="button">
                     <span class="fa-solid fa-bars"></span>
                  </button>
+                
 
                  <!-- Menus -->
                   <ul class="navbar-nav flex">
@@ -45,20 +46,57 @@
                         <li><a href="" class="dropdown-item">Teams</a></li>
                         <li><a href="" class="dropdown-item">Testimonials</a></li>
                         <li><a href="" class="dropdown-item">FAQ</a></li>
-                        <li><a href="" class="dropdown-item">Comming Soon</a></li>
                         <li><a href="" class="dropdown-item">Blog</a></li>
+                        <li><a href="" class="dropdown-item">Comming Soon</a></li>
                         <li><a href="" class="dropdown-item">404</a></li>
                     </ul>
                     </li>
                   </ul>
                 </div>
-                <div class="nav-right-flex">
+                <div class="nav-right flex">
                     <p>Call Us: <span>+8801306060606</span></p>
                     <!-- Header BUttons -->
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </nav>
+            <!-- sidebar -->
+             <aside id="mySidepanel" class="sidepanel">
+                <div class="sidebar flex">
+                    <a href=""><img src="Images/logo.png" alt="logo"></a>
+                    <button type="button" class="closebtn btn_hover1">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    
+                </div>
+                <div>
+                    <!-- side menus -->
+                    <ul>
+                        <li><a href="/" class="nav-link active">Home</a></li>
+                        <li><a href="/" class="nav-link active">About</a></li>
+                        <li><a href="/" class="nav-link active">Contact</a></li>
+                        <li class="pages"><a href="/">More</a></li>
+                        <li class="collapse-btn">
+                            <a href="" class="nav-link plus_collapse" data-bs-toggle="collapse" >
+                                <i class="fa-solid fa-plus"></i>
+                            </a>
+                            <div class="collapse" id="pages">
+                                <ul>
+                                    <li><a href="/" class="nav-link">Services</a></li>
+                                    <li><a href="" class="nav-link">Pricing Plan</a></li>
+                                    <li><a href="" class="nav-link">Portfolio</a></li>
+                                    <li><a href="" class="nav-link">Teams</a></li>
+                                    <li><a href="" class="nav-link">Testimonials</a></li>
+                                    <li><a href="" class="nav-link">FAQ</a></li>
+                                    <li><a href="" class="nav-link">Blog</a></li>
+                                    <li><a href="" class="nav-link">Comming Soon</a></li>
+                                    <li><a href="" class="nav-link">404</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+             </aside>
          </header>
     </div>
 </div>
@@ -69,7 +107,7 @@
 
 
 
-    <!-- Scroll animation lib -->
+    <!-- Scroll animation lib
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
@@ -77,19 +115,19 @@
             duration: 1250,
             once: true,
         });
-    </script>
+    </script> -->
 
     <!-- jquery js cdn -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
         integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <!-- jquery min js cdn -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
     <!-- slick carousel min js cdn -->
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-        integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=" crossorigin="anonymous"></script> -->
 </body>
 </html>
