@@ -26,15 +26,16 @@
     justify-content: flex-end !important;
 }
 
-/* .flex-col {
+ .flex-col {
     flex-direction: column !important;
-} */
+} 
 
 
 .flex-wrap {
     display: flex;
     flex-wrap: wrap;
 }
+
 /* some box for flex box */
 
 .gap-1 {
