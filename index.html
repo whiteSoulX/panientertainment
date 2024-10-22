@@ -1,290 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pani Entertainment</title>
-<link rel="shortcut icon " href="Images/fave_icon2.png" type="image/x-icon">
-<!-- link css -->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/easy.css">
-<link rel="stylesheet" href="css/slick.min.css">
-   <!-- Scroll cdn  -->
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon " href="Images/fave_icon2.png" type="image/x-icon">
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/easy.css">
+    <link rel="stylesheet" href="css/slick.min.css">
+    <!-- Scroll cdn  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-<!-- Font Awesome CDN for icon -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome CDN for icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
 <body>
-    
-<div class="site-wrapper">
-    <div class="header-index">
-        <!-- ====== 1.1 Header Section ========-->
-         <header>
-            <nav class="container navbar">
-                <div class="container-nav flex">
-                <!-- Site Logo -->
-                 <a href="" class="navbar-logo">Pani <Span>Entertainment</Span></a>
-                 <button onclick="openNav()" class="navbar-toggler" type="button">
-                    <span class="fa-solid fa-bars"></span>
-                 </button>
-                
 
-                 <!-- Menus -->
-                  <ul class="navbar-nav flex">
-                    <li><a href="/" class="nav-link active">Home</a></li>
-                    <li><a href="/" class="nav-link">About</a></li>
-                    <li><a href="/" class="nav-link">Contact</a></li>
-                    <li class="dropdown">
-                        <a href="/" class="nav-link dropdown-toggle">Pages</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="" class="dropdown-item">Services</a></li>
-                        <li><a href="" class="dropdown-item">Pricing Plan</a></li>
-                        <li><a href="" class="dropdown-item">Portfolio</a></li>
-                        <li><a href="" class="dropdown-item">Teams</a></li>
-                        <li><a href="" class="dropdown-item">Testimonials</a></li>
-                        <li><a href="" class="dropdown-item">FAQ</a></li>
-                        <li><a href="" class="dropdown-item">Blog</a></li>
-                        <li><a href="" class="dropdown-item">Comming Soon</a></li>
-                        <li><a href="" class="dropdown-item">404</a></li>
-                    </ul>
-                    </li>
-                  </ul>
-                </div>
-                <div class="nav-right flex">
-                    <p>Call Us: <span>+8801306060606</span></p>
-                    <!-- Header BUttons -->
-                    <i onclick="open_search()" class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </nav>
-            <!-- sidebar -->
-             <aside id="mySidepanel" class="sidepanel">
-                <div class="sidebar flex">
-                    <a href=""><img src="Images/logo.png" alt="logo"></a>
-                    <button onclick="closeNav()" type="button" class="closebtn btn_hover1">
-                        <i class="fa-solid fa-xmark"></i>
-                    </button>
-                    
-                </div>
-                <div>
-                    <!-- side menus -->
-                    <ul>
-                        <li><a href="/" class="nav-link active">Home</a></li>
-                        <li><a href="/" class="nav-link active">About</a></li>
-                        <li><a href="/" class="nav-link active">Contact</a></li>
-                        <li class="pages"><a href="/">More</a></li>
-                        <li class="collapse-btn">
-                            <a href="" class="nav-link plus_collapse" data-bs-toggle="collapse" >
-                                <i class="fa-solid fa-plus"></i>
-                            </a>
-                            <div class="collapse" id="pages">
-                                <ul>
-                                    <li><a href="/" class="nav-link">Services</a></li>
-                                    <li><a href="" class="nav-link">Pricing Plan</a></li>
-                                    <li><a href="" class="nav-link">Portfolio</a></li>
-                                    <li><a href="" class="nav-link">Teams</a></li>
-                                    <li><a href="" class="nav-link">Testimonials</a></li>
-                                    <li><a href="" class="nav-link">FAQ</a></li>
-                                    <li><a href="" class="nav-link">Blog</a></li>
-                                    <li><a href="" class="nav-link">Comming Soon</a></li>
-                                    <li><a href="" class="nav-link">404</a></li>
+    <div class="site-wrapper">
+        <div class="header-index">
+            <!-- ====== 1.1 Header Section ========-->
+            <header>
+                <nav class="container navbar">
+                    <div class="container-nav flex">
+                        <!-- Site Logo -->
+                        <a href="" class="navbar-logo">Pani <Span>Entertainment</Span></a>
+                        <button onclick="openNav()" class="navbar-toggler" type="button">
+                            <span class="fa-solid fa-bars"></span>
+                        </button>
+
+
+                        <!-- Menus -->
+                        <ul class="navbar-nav flex">
+                            <li><a href="/" class="nav-link active">Home</a></li>
+                            <li><a href="/" class="nav-link">About</a></li>
+                            <li><a href="/" class="nav-link">Contact</a></li>
+                            <li class="dropdown">
+                                <a href="/" class="nav-link dropdown-toggle">Pages</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="" class="dropdown-item">Services</a></li>
+                                    <li><a href="" class="dropdown-item">Pricing Plan</a></li>
+                                    <li><a href="" class="dropdown-item">Portfolio</a></li>
+                                    <li><a href="" class="dropdown-item">Teams</a></li>
+                                    <li><a href="" class="dropdown-item">Testimonials</a></li>
+                                    <li><a href="" class="dropdown-item">FAQ</a></li>
+                                    <li><a href="" class="dropdown-item">Blog</a></li>
+                                    <li><a href="" class="dropdown-item">Comming Soon</a></li>
+                                    <li><a href="" class="dropdown-item">404</a></li>
                                 </ul>
-                            </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-right flex">
+                        <p>Call Us: <span>+8801306060606</span></p>
+                        <!-- Header BUttons -->
+                        <i onclick="open_search()" class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </nav>
+                <!-- sidebar -->
+                <aside id="mySidepanel" class="sidepanel">
+                    <div class="sidebar flex">
+                        <a href=""><img src="Images/logo.png" alt="logo"></a>
+                        <button onclick="closeNav()" type="button" class="closebtn btn_hover1">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+
+                    </div>
+                    <div>
+                        <!-- side menus -->
+                        <ul>
+                            <li><a href="/" class="nav-link active">Home</a></li>
+                            <li><a href="/" class="nav-link active">About</a></li>
+                            <li><a href="/" class="nav-link active">Contact</a></li>
+                            <li class="pages"><a href="/">More</a></li>
+                            <li class="collapse-btn">
+                                <a href="" class="nav-link plus_collapse" data-bs-toggle="collapse">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                                <div class="collapse" id="pages">
+                                    <ul>
+                                        <li><a href="/" class="nav-link">Services</a></li>
+                                        <li><a href="" class="nav-link">Pricing Plan</a></li>
+                                        <li><a href="" class="nav-link">Portfolio</a></li>
+                                        <li><a href="" class="nav-link">Teams</a></li>
+                                        <li><a href="" class="nav-link">Testimonials</a></li>
+                                        <li><a href="" class="nav-link">FAQ</a></li>
+                                        <li><a href="" class="nav-link">Blog</a></li>
+                                        <li><a href="" class="nav-link">Comming Soon</a></li>
+                                        <li><a href="" class="nav-link">404</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+
+                <!-- Search Bar -->
+                <div id="search-bar">
+                    <div onclick="close_search()" class="btn_hover1">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <form action="#" method="search">
+                        <input type="search" required placeholder="Search...">
+                        <button type="submit" class="btn_hover1"> Search</button>
+
+                    </form>
+                </div>
+
+                <!-- Right SideBar -->
+                <section class="header-right-sidebar" id="right_side">
+                    <div class="flex flex-sb">
+                        <a href="/"><img src="Images/right-side-logo2.png" alt="Logo"></a>
+                        <button class="close_rightsidebar fa-solid fa-xmark"></button>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quaerat eaque maiores!</p>
+                    <a href="" class="btn_hover1">Discover More</a>
+                    <hr>
+                    <h4>Connected Details</h4>
+                    <ul class="flex">
+                        <li>
+                            <a href="#" class="fa-solid fa-phone"></a>
+                            <a href="#" class="text-lowercase">your@gamil.com</a>
+                        </li>
+                        <li>
+                            <a href="#" class="fa-solid fa-envelope"></a>
+                            <a href="#">+123-456-7890</a>
+                        </li>
+                        <li>
+                            <a href="#" class="fa-solid fa-regular fa-clock"></a>
+                            <a href="#">Office Hours: 8AM - 11PM Sunday - Weekend day</a>
                         </li>
                     </ul>
-                </div>
-             </aside>
+                    <span class="flex>
+                    <a href=" #"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+                    </span>
+                </section>
+            </header>
+            <!-- ====== 1.1 End Header Section ========-->
+            <!-- ====== 1.2 Hero Section ========-->
 
-             <!-- Search Bar -->
-              <div id="search-bar">
-                <div onclick="close_search()"  class="btn_hover1">
-                    <i class="fa-solid fa-xmark"></i>
-                </div>
-                <form action="#" method="search">
-                    <input type="search" required placeholder="Search...">
-                    <button type="submit" class="btn_hover1"> Search</button>
-
-                </form>
-              </div>
-
-              <!-- Right SideBar -->
-               <section class="header-right-sidebar" id="right_side">
-                <div class="flex flex-sb">
-                    <a href="/"><img src="Images/right-side-logo2.png" alt="Logo"></a>
-                    <button class="close_rightsidebar fa-solid fa-xmark"></button>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quaerat eaque maiores!</p>
-                <a href="" class="btn_hover1">Discover More</a>
-                <hr>
-                <h4>Connected Details</h4>
-                <ul class="flex">
-                    <li>
-                        <a href="#" class="fa-solid fa-phone"></a>
-                        <a href="#" class="text-lowercase">your@gamil.com</a>
-                    </li>
-                    <li>
-                        <a href="#" class="fa-solid fa-envelope"></a>
-                        <a href="#" >+123-456-7890</a>
-                    </li>
-                    <li>
-                        <a href="#" class="fa-solid fa-regular fa-clock"></a>
-                        <a href="#">Office Hours: 8AM - 11PM Sunday - Weekend day</a>
-                    </li>
-                </ul>
-                <span class="flex>
-                    <a href="#"> <i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"> <i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"> <i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
-                </span>
-               </section>
-         </header>
-         <!-- ====== 1.1 End Header Section ========-->
-         <!-- ====== 1.2 Hero Section ========-->
-
-         <section class="hero">
-            <div class="container">
-                <div>
-                    <div class="hero-social-icon flex">
-                       <a href="#"><i class="fa-brands fa-facebook"></i></a> 
-                       <a href="#"><i class="fa-brands fa-instagram"></i></a> 
-                       <a href="#"><i class="fa-brands fa-twitter"></i></a> 
-                       <hr>
+            <section class="hero">
+                <div class="container">
+                    <div>
+                        <div class="hero-social-icon flex">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <hr>
+                        </div>
+                        <div class="center-data flex flex-col gap-1">
+                            <h1>DIGITAL SERVICE</h1>
+                            <h3>BUILDING YOUR DIGITALLY</h3>
+                            <div class="center-btn flex">
+                                <a href="" class="btn_hover1">Get Started</a>
+                                <a href="" class="btn_hover2">Dicover More</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="center-data flex flex-col gap-1">
-                        <h1>DIGITAL SERVICE</h1>
-                        <h3>BUILDING YOUR DIGITALLY</h3>
-                        <div class="center-btn flex">
-                            <a href="" class="btn_hover1">Get Started</a>
-                            <a href="" class="btn_hover2">Dicover More</a>
+                </div>
+            </section>
+            <!-- ======END OF 1.2 Hero Section ========-->
+
+
+        </div>
+        <!-- ======1.3 Card Section ========-->
+        <section class="feature">
+            <div class="container">
+                <div class="flex">
+                    <div class="header-card">
+                        <div>
+                            <figure>
+                                <img src="Images/icon/feature1.png" alt="img">
+                            </figure>
+                            <h4>CUSTOMIZED SOLUTIONS</h4>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum soluta, qui tenetur
+                                voluptas, praesentium eos expedita doloremque repellendus recusandae necessitatibus
+                                tempora! Quos, quidem eos ?</P>
+
+                        </div>
+                    </div>
+                    <div class="header-card">
+                        <div>
+                            <figure>
+                                <img src="Images/icon/feature2.png" alt="img">
+                            </figure>
+                            <h4>ROI-DRIVEN APPROCH</h4>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum soluta, qui tenetur
+                                voluptas, praesentium eos expedita doloremque repellendus recusandae necessitatibus
+                                tempora! Quos, quidem eos ?</P>
+                        </div>
+                    </div>
+                    <div class="header-card">
+                        <div>
+                            <figure>
+                                <img src="Images/icon/feature3.png" alt="img">
+                            </figure>
+                            <h4>CREATIVE SOLUTIONS</h4>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum soluta, qui tenetur
+                                voluptas, praesentium eos expedita doloremque repellendus recusandae necessitatibus
+                                tempora! Quos, quidem eos ?</P>
+                        </div>
+                    </div>
+                    <div class="header-card">
+                        <div>
+                            <figure>
+                                <img src="Images/icon/feature4.png" alt="img">
+                            </figure>
+                            <h4>EXPERT TEAM</h4>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum soluta, qui tenetur
+                                voluptas, praesentium eos expedita doloremque repellendus recusandae necessitatibus
+                                tempora! Quos, quidem eos ?</P>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- ======END  OF 1.3 Card Section ========-->
+
+        <!-- ======1.4 Logoipsum Section ========-->
+        <section class="logoipsum">
+            <div class="container">
+                <div class="flex flex-col gap-2">
+                    <hr class="hr1">
+                    <h3 class="mb-15">OUR CLIENTS</h3>
+                </div>
+                <div class="logoipsum-slider sliderlogo">
+
+                    <figure><img src="images/home/logoipsum1.svg" alt=""></figure>
+                    <figure><img src="images/home/logoipsum2.svg" alt=""></figure>
+                    <figure><img src="images/home/logoipsum3.svg" alt=""></figure>
+                    <figure><img src="images/home/logoipsum4.svg" alt=""></figure>
+                    <figure><img src="images/home/logoipsum5.svg" alt=""></figure>
+                    <figure><img src="images/home/logoipsum6.svg" alt=""></figure>
+                </div>
+                <hr class="hr2">
+            </div>
+
+        </section>
+        <!-- ======END  OF 1.4 Logoipsum Section  ========-->
+
+        <!-- ======= 1.5 About US Section =======-->
+        <section class="about">
+            <div class="container">
+                <div class="about-data flex-sb">
+                    <div class="w-50">
+                        <div class="flex about-title gap-1">
+                            <hr>
+                            <h5>ABOUT US</h5>
+                        </div>
+                        <h2>Explore our services and boost your online presence</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi porro </p>
+                        <div class="flex gap-1 mt-15">
+                            <i class="fa-solid fa-check"></i>
+                            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h5>
+                        </div>
+                        <div class="flex gap-1 mt-15">
+                            <i class="fa-solid fa-check"></i>
+                            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h5>
+                        </div>
+                        <div class="flex mt-3 gap-20">
+                            <a href="#" class="btn_hover1">Get Started</a>
+                            <a href="#" class="btn_hover2">Discover More</a>
+                        </div>
+                    </div>
+                    <div class="w-50 about-imgs flex flex-center">
+                        <div>
+                            <figure>
+                                <img src="images/home/about.png" alt="img">
+                            </figure>
+                        </div>
+                        <div class="ab-count flex flex-center">
+                            <div class="flex flex-center">
+                                <h2>12</h2>
+                                <h2>+</h2>
+                            </div>
+                            <p>year of exerience</p>
+                        </div>
+                        <div class="about-hr flex gap-1">
+                            <hr>
+                            <h6>Who we are</h6>
                         </div>
                     </div>
                 </div>
             </div>
-         </section>
-        <!-- ======END OF 1.2 Hero Section ========-->
-        
+        </section>
+        <!-- ======= END of 1.5 About US Section =======-->
+
+
+        <!-- ======= 1.6 Galary Section =======-->
+        <section class="portfolio">
+            <div class="portfolio-1">
+                <div class="container">
+                    <div class="porto-center">
+                        <div class="w-50">
+                            <div class="flex gap-1">
+                                <hr class="gallary-hr1">
+                                <h5>PORTFOLIO</h5>
+                            </div>
+                            <h2 class="mt-15">Our Latest Project</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias voluptatum, voluptates
+                                modi iusto vitae voluptatem pariatur aliquam necessitatibus!</p>
+                        </div>
+                        <div class="flex w-100 flex-end">
+                            <a href="/" class="btn_hover2 ">View all Project</a>
+                        </div>
+                        <hr class="mt-3">
+                    </div> .
+                </div>
+            </div>
+            <div class="gallary">
+                <div class="ga-bg"></div>
+                <!-- overly -->
+                <span> </span>
+                <div class="container">
+                    <!-- tab links -->
+                    <div class="tab mt-15">
+                        <button class="tablinks active">ALL</button>
+                        <button class="tablinks">YOUTUBE CMS</button>
+                        <button class="tablinks">SOCIAL MEDIA CMS</button>
+                        <button class="tablinks">FRONTEND DEVELOPMENT</button>
+                        <button class="tablinks">MARKETING</button>
+                        <button class="tablinks">SEO</button>
+                    </div>
+                    <!-- Tab Content -->
+                    <div id="all" class="tabcontent" style="display: block;">
+                        <div class="flex flex-center">
+                            <div class="flex w-100">
+                                <div class="w-33">
+                                    <figure><img src="Images/home/all-gallary-1.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/all-gallary-2.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/all-gallary-3.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/all-gallary-4.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/all-gallary-5.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/all-gallary-6.png" alt=""></figure>
+                                    <figure><img src="Images/home/all-gallary-7.png" alt=""></figure>
+                                </div>
+                                <div class="w-66">
+                                    <figure><img src="Images/home/all-gallary-8.png" alt=""></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Youtube CMS" class="tabcontent">
+                        <div class="flex flex-center">
+                            <div class="flex w-100">
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-3.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-6.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-7.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-1.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-2.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-4.png" alt=""></figure>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="Socail Media CMS" class="tabcontent">
+                        <div class="flex flex-center">
+                            <div class="flex w-100">
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-3.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-4.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-5.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-6.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-7.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-8.png" alt=""></figure>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="Fronted Depelopment" class="tabcontent">
+                        <div class="flex flex-center">
+                            <div class="flex w-100">
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-3.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-2.png" alt=""></figure>
+                                </div>
+                                <div class="w-36">
+                                    <figure><img src="Images/home/design-gallary-1.png" alt=""></figure>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="Marketing" class="tabcontent">
+                        <div class="flex flex-center">
+                            <div class="flex w-100">
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-3.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-6.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-7.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-1.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-2.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-4.png" alt=""></figure>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="SEO" class="tabcontent">
+                        <div class="flex flex-center">
+                            <div class="flex w-100">
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-3.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-6.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-7.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-1.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-2.png" alt=""></figure>
+                                </div>
+                                <div class="w-33">
+                                    <figure><img src="Images/home/design-gallary-4.png" alt=""></figure>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="galary-flex flex flex-end gap-1 mt-15">
+                    <h6>Creative Solution</h6>
+                    <hr>
+                </div>
+            </div>
+    </div>
+    </section>
 
     </div>
-    <!-- ======1.3 Card Section ========-->
-     <section class="feature">
-        <div class="container">
-            <div class="flex">
-                <div class="header-card">
-                    <div>
-                        <figure>
-                            <img src="Images/icon/feature1.png" alt="img">
-                        </figure>
-                        <h4>CUSTOMIZED SOLUTIONS</h4>
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum soluta, qui tenetur voluptas, praesentium eos expedita doloremque repellendus recusandae necessitatibus tempora! Quos, quidem eos ?</P>
-                
-                    </div>
-                    </div>
-                <div class="header-card">
-                    <div>
-                        <figure>
-                            <img src="Images/icon/feature2.png" alt="img">
-                        </figure>
-                        <h4>ROI-DRIVEN APPROCH</h4>
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum soluta, qui tenetur voluptas, praesentium eos expedita doloremque repellendus recusandae necessitatibus tempora! Quos, quidem eos ?</P>
-                    </div>
-                    </div>
-                <div class="header-card">
-                    <div>
-                        <figure>
-                            <img src="Images/icon/feature3.png" alt="img">
-                        </figure>
-                        <h4>CREATIVE SOLUTIONS</h4>
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum soluta, qui tenetur voluptas, praesentium eos expedita doloremque repellendus recusandae necessitatibus tempora! Quos, quidem eos ?</P>
-                    </div>
-                    </div>
-                <div class="header-card">
-                    <div>
-                        <figure>
-                            <img src="Images/icon/feature4.png" alt="img">
-                        </figure>
-                        <h4>EXPERT TEAM</h4>
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum soluta, qui tenetur voluptas, praesentium eos expedita doloremque repellendus recusandae necessitatibus tempora! Quos, quidem eos ?</P>
-                    </div>
-                    </div>
-            </div>
-            
-        </div>
-     </section>
-     <!-- ======END  OF 1.3 Card Section ========-->   
-
-    <!-- ======1.4 Logoipsum Section ========-->
-    <section class="logoipsum">
-        <div class="container">
-            <div class="flex flex-col gap-2">
-                <hr class="hr1">
-                <h3 class="mb-15">OUR CLIENTS</h3>
-            </div>
-            <div class="logoipsum-slider sliderlogo">
-            
-                <figure><img src="images/home/logoipsum1.svg" alt=""></figure>
-                <figure><img src="images/home/logoipsum2.svg" alt=""></figure>
-                <figure><img src="images/home/logoipsum3.svg" alt=""></figure>
-                <figure><img src="images/home/logoipsum4.svg" alt=""></figure>
-                <figure><img src="images/home/logoipsum5.svg" alt=""></figure>
-                <figure><img src="images/home/logoipsum6.svg" alt=""></figure>
-            </div>
-            <hr class="hr2">
-        </div>
-       
-    </section>   
-     <!-- ======END  OF 1.4 Logoipsum Section  ========-->   
-
-    <!-- ======= 1.5 About US Section =======-->
-    <section class="about">
-        <div class="container">
-            <div class="about-data flex-sb">
-                <div class="w-50">
-                    <div class="flex about-title gap-1">
-                        <hr>
-                        <h5>ABOUT US</h5>
-                    </div>
-                    <h2>Explore our services and boost your online presence</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi porro </p>
-                    <div class="flex gap-1 mt-15">
-                        <i class="fa-solid fa-check"></i>
-                        <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h5>
-                    </div>
-                    <div class="flex gap-1 mt-15">
-                        <i class="fa-solid fa-check"></i>
-                        <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h5>
-                    </div>
-                    <div class="flex mt-3 gap-20">
-                        <a href="#" class="btn_hover1">Get Started</a>
-                        <a href="#" class="btn_hover2">Discover More</a>
-                    </div>
-                </div>
-                <div class="w-50 about-imgs flex flex-center">
-                    <div>
-                        <figure>
-                            <img src="images/home/about.png" alt="img">
-                        </figure>
-                    </div>
-                    <div class="ab-count flex flex-center">
-                        <div class="flex flex-center">
-                            <h2>12</h2>
-                            <h2>+</h2>
-                        </div>
-                        <p>year of exerience</p>
-                    </div>
-                    <div class="about-hr flex gap-1">
-                        <hr>
-                        <h6>Who we are</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-</div>
 
 
 
@@ -300,22 +502,23 @@
             duration: 1250,
             once: true,
         });
-    </script> 
+    </script>
 
     <!-- jquery js cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
         integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- jquery min js cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- slick carousel min js cdn -->
-     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
         integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=" crossorigin="anonymous"></script>
 
-        <!-- Custom JS -->
-         <script  src="./js/script.js"></script>
+    <!-- Custom JS -->
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
