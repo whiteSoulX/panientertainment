@@ -980,12 +980,12 @@ padding: 16px 38px 16px 38px !important;
 
 /* ====== 1.6. gallary section ====== */
 
-.portfolio-1{
+.portfolio-1 {
     background: #150725;
     padding: 120px 0 120px 0;
     margin-top: -1px;
 }
-.portfolio-center{
+.porto-center{
     display: flex;
     text-align: left;
     flex-wrap: wrap;
@@ -993,19 +993,19 @@ padding: 16px 38px 16px 38px !important;
     margin-right: calc(-.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
 }
-.portfolio-center .w-50{
-    width: 66.66666667%;
+.porto-center .w-50{
+    width: 66%;
 }
-.portfolio-1 h5{
+.porto-center h5{
     color: #ffffff;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-.portfolio-1 h2{
+.porto-center h2{
     color: #ffffff;
 }
-.portfolio-1 p{
+.porto-center p{
     color: #d3c9c1;
     padding-right: 145px; 
     margin-top: 1rem;
@@ -1018,7 +1018,7 @@ padding: 16px 38px 16px 38px !important;
     border: 1px solid;
 }
 
-.portfolio-center hr{
+.porto-center hr{
     width: 100%;
     opacity: 1.25;
     height: 1px;
@@ -1030,7 +1030,7 @@ padding: 16px 38px 16px 38px !important;
     border: 1px solid #f85727;
 }
 
-.portfolio-center .w-100{
+.porto-center .w-100{
     flex: 0 0 auto;
     width: 33.33333333%;
 }
@@ -1139,3 +1139,527 @@ padding: 16px 38px 16px 38px !important;
     height: 2px;
     width: 60px;
 }
+
+/* <!-- ======= END of 1.6 Galary Section =======-->
+
+
+<!-- ======= 1.7 Service Section =======--> */
+
+.service-1{
+    background: #3d0f41;
+    padding: 120px 0;
+}
+
+.service-data{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-1 h5{
+    font-size: 30px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.service-1 h2{
+    color: #ffffff;
+}
+
+.service-1 .col-lg-8 p {
+    padding: 0 221px 0 0;
+}
+
+.service-1 p {
+    color: #d3c9c1;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.service-1 .service-hr1 {
+    opacity: 1.25;
+    height: 1px;
+    color: #b520a3;
+    width: 60px;
+    border: 1px solid;
+}
+
+.service-1 hr {
+    width: 70%;
+    opacity: 1.25;
+    height: 1px;
+    color: #461f72;
+    border: 1px solid;
+}
+
+.service-1 .btn_hover2 {
+    padding: 15px 30px;
+    border: 1px solid #ff7527;
+}
+
+.service-card {
+    border: 1px solid #b520a3;
+    background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+    box-shadow: 8px 18px 30px 0px rgba(0, 0, 0, 0.2);
+    padding: 40px 40px 30px 40px;
+    width: 100%;
+}
+
+.service-card:hover {
+    transform: scale(1.05) !important;
+    transition: all 0.4s ease !important;
+}
+
+.service-card a {
+    color: #d3c9c1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.service-card a:hover {
+    font-weight: 700;
+    color: #ffffff;
+    gap: 8px;
+}
+
+.service-card h3 {
+    margin: 20px 0;
+    color: #ffffff;
+    letter-spacing: 1.25px;
+}
+
+.service-card img {
+    object-fit: cover;
+    margin: auto;
+    display: block;
+}
+
+.service-card figure {
+    background: #ffffff;
+    box-shadow: 10px 17px 28px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 12px;
+    width: 124px;
+    height: 85px;
+    display: flex;
+}
+
+.service-card img[alt="slider1"] {
+    width: 105px;
+}
+
+.service-card img[alt="slider2"] {
+    width: 75px;
+}
+
+.service-card img[alt="slider3"] {
+    width: 60px;
+}
+
+/* ====== End of 1.7. Services section ====== */
+
+/* ====== 1.8. Experience section ====== */
+
+.experience {
+    background-image: url("../Images/bg/experience_bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+    position: relative;
+    margin-top: -1px;
+    /* bottom: 300px; */
+}
+
+.experience::before {
+    position: absolute;
+    content: '';
+    top: 26rem;
+    background-image: url("../Images/bg/experience_cercle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 30%;
+    height: 39%;
+    left: 32%;
+}
+
+.experience h5 {
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.experience h2 {
+    color: #ffffff;
+}
+
+.experience p {
+    color: #d3c9c1;
+}
+
+.experience .col-lg-8 p {
+    padding: 0 221px 0 0;
+}
+
+.experience .experience-hr1 {
+    opacity: 1.25;
+    height: 1px;
+    color: #b520a3;
+    width: 60px;
+    border: 1px solid;
+}
+
+.experience hr {
+    width: 100%;
+    opacity: 1.25;
+    height: 1px;
+    color: #461f72;
+    border: 1px solid;
+    margin: 35px 0;
+}
+
+.experience .btn_hover1 {
+    padding: 15px 40px;
+    position: relative;
+    /* left: 100px; */
+    right: 300px;
+    top: 200px;
+}
+
+.experience .btn_hover2 {
+    padding: 15px 30px;
+    border: 1px solid #ff7527;
+}
+
+.experience .col-lg-6 {
+    z-index: 1;
+}
+
+.experience_mask figure {
+    width: fit-content;
+    clip-path: circle(47% at 50% 50%);
+    padding: 6px;
+    background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+    transition: all 0.8s ease;
+}
+
+.experience_mask figure:hover {
+    transform: scale(1.05);
+    transition: all 0.8s ease;
+}
+
+.experience_mask img {
+    width: 100%;
+    clip-path: circle(47% at 50% 50%);
+}
+
+.experience-hr {
+    color: #ffffff;
+    position: absolute;
+    bottom: -20px;
+    left: -250px;
+    bottom: 25px;
+    rotate: -90deg;
+}
+
+.experience-hr h6 {
+    letter-spacing: 3.72px;
+    text-transform: uppercase;
+}
+
+.experience-hr hr {
+    opacity: 1.25;
+    height: 1px;
+    color: #ffffffff;
+    width: 60px;
+    border: 1px solid;
+    margin: 0;
+}
+
+
+.ex-card {
+    margin: 10px;
+    position: relative;
+    left: 70px;
+    top: 100px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 23px 30px 0px rgba(0, 0, 0, 0.15);
+    padding: 20px 20px 20px 20px;
+    z-index: 1;
+}
+
+.ex-card:hover {
+    background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+    transform: scale(1.05) !important;
+    transition: all 0.4s ease !important;
+}
+
+.ex-card:hover h4 {
+    color: #ffffff;
+}
+
+.ex-card:hover p {
+    color: #ffffff;
+}
+
+.ex-card .flex {
+    border-radius: 50%;
+    background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+    color: #ffffff;
+    width: 115px;
+    padding: 29px 0px;
+}
+
+.ex-card:hover.ex-card .flex {
+    background: #ffffff;
+}
+
+.ex-card:hover.ex-card h3 {
+    color: #7436bb !important;
+}
+
+.ex-card div:last-child {
+    width: 100%;
+}
+
+.ex-card h4 {
+    color: #231f20;
+}
+
+.ex-card p {
+    color: #767676;
+    margin-top: 10px;
+}
+
+/* ====== End of 1.8. Experience section ====== */
+
+/* ====== 1.9. How we work section ====== */
+
+.work {
+    background-image: url("../Images/bg/work-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 120px 0;
+    margin-top: -2px;
+}
+
+.work h5 {
+    letter-spacing: 1px;
+}
+
+.work-para {
+    color: #ffffff;
+    padding: 0 290px;
+}
+
+.work-line {
+    background-image: url("../Images/bg/work-line.png");
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 242px;
+    background-repeat: no-repeat;
+    margin: 146px 25px 146px 25px;
+}
+
+.work-line div {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 18px 0 32px 34px;
+}
+
+.work-line div:first-child {
+    top: -66px;
+    left: -30px;
+    width: 196px;
+    min-height: 196px;
+}
+
+.work-line div:nth-child(2) {
+    bottom: -70px;
+    left: 260px;
+    width: 180px;
+    min-height: 180px;
+}
+
+.work-line div:nth-child(3) {
+    right: 260px;
+    top: -66px;
+    width: 196px;
+    min-height: 196px;
+}
+
+.work-line div:last-child {
+    right: -49px;
+    bottom: -70px;
+    width: 180px;
+    min-height: 180px;
+}
+
+.work a {
+    border: 1.5px solid #ff7527;
+}
+
+.work-hr {
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    rotate: -90deg;
+}
+
+.work-hr h6 {
+    letter-spacing: 3.72px;
+    text-transform: uppercase;
+}
+
+.work-hr hr {
+    opacity: 1.25;
+    height: 1px;
+    color: #ffffffbf;
+    width: 60px;
+    border: 1px solid;
+}
+
+.work .btn_hover2 {
+    padding: 15px 30px;
+}
+
+/* ====== End of 1.9. Testimonials section ====== */
+
+/* ====== 1.10. team section ====== */
+
+.team {
+    background-image: url("../Images/bg/experience_bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 120px 0 0 0;
+}
+
+#team {
+    background-image: url("../Images/bg/experience_bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 120px 0 120px 0;
+}
+
+.team h5 {
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.team h2 {
+    color: #ffffff;
+    padding: 0 212px 0 0;
+}
+
+.team p {
+    color: #d3c9c1;
+    padding: 0 184px 0 0;
+}
+
+.team .team-hr1 {
+    opacity: 1.25;
+    height: 1px;
+    color: #b520a3;
+    width: 60px;
+    border: 1px solid;
+}
+
+.team a {
+    padding: 15px 30px;
+    border: 1.5px solid #ff8c4b;
+}
+
+.team-slider {
+    overflow: hidden;
+    display: flex;
+}
+
+.team-img {
+    min-width: 304px;
+    object-fit: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.team-img img {
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, #7436bb66 28%, #b520a378 68%);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+}
+
+.team-img:hover .overlay {
+    height: 100%;
+}
+
+.overlay_text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+}
+
+.overlay_text h4 {
+    margin: 6px 0 15px 0;
+}
+
+.overlay_text i {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.overlay_text a {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+.overlay_text a:hover {
+    background-color: #ffffff;
+}
+
+.overlay_text a:hover i {
+    color: #150725;
+}
+
+.overlay_text .flex a:first-child {
+    padding: 8px 13px !important;
+}
+
+.overlay_text .flex a:nth-child(2) {
+    padding: 9px 12px !important;
+}
+
+.overlay_text .flex a:last-child {
+    padding: 8px 10px !important;
+}
+
+.team-btn {
+    background: linear-gradient(0deg, #471133 0%, #140921 100%);
+    color: #d3c9c1;
+    padding: 40px 20px;
+    margin-top: 90px;
+    text-transform: uppercase;
+}
+
+/* ====== End of 1.10. team section ====== */
