@@ -46,6 +46,31 @@ function close_search(){
     }
 }
 
+        // portfolio Galary Tab
+
+        function open_img(evt,cityName){
+            let i,tabcontent,tablinks;
+
+            //Hide all Tab
+            tabcontent = document.getElementsByClassName('tabcontent');
+            for(i=0;i<tabcontent.length;i++){
+                tabcontent[i].style.displlay = "none";
+            }
+
+            // Remove Active  Class from all tab links
+
+            tablinks = document.getElementsByClassName("tablinks");
+            for(i=0;i<tablinks.length;i++){
+                tabcontent[i].classList.remove("active");
+            }
+
+            // Show the selected tab content and mark the coressponding tab link as active
+
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.classList.add('active');
+
+        }
+
         // Responsive logoipsum Slider
 
 $('.sliderlogo').slick({
