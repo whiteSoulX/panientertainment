@@ -26,7 +26,7 @@
     <div class="site-wrapper">
         <div class="header-index">
             <!-- ====== 1.1 Header Section ========-->
-            <header>
+            <header id="home">
                 <nav class="container navbar">
                     <div class="container-nav flex">
                         <!-- Site Logo -->
@@ -38,27 +38,23 @@
 
                         <!-- Menus -->
                         <ul class="navbar-nav flex">
-                            <li><a href="/" class="nav-link active">Home</a></li>
-                            <li><a href="/" class="nav-link">About</a></li>
-                            <li><a href="/" class="nav-link">Contact</a></li>
+                            <li><a href="#home" class="nav-link active">Home</a></li>
+                            <li><a href="#about" class="nav-link">About</a></li>
+                            <li><a href="#contact" class="nav-link">Contact</a></li>
                             <li class="dropdown">
                                 <a href="/" class="nav-link dropdown-toggle">Pages</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="" class="dropdown-item">Services</a></li>
-                                    <li><a href="" class="dropdown-item">Pricing Plan</a></li>
-                                    <li><a href="" class="dropdown-item">Portfolio</a></li>
-                                    <li><a href="" class="dropdown-item">Teams</a></li>
-                                    <li><a href="" class="dropdown-item">Testimonials</a></li>
-                                    <li><a href="" class="dropdown-item">FAQ</a></li>
-                                    <li><a href="" class="dropdown-item">Blog</a></li>
-                                    <li><a href="" class="dropdown-item">Comming Soon</a></li>
-                                    <li><a href="" class="dropdown-item">404</a></li>
+                                    <li><a href="#service" class="dropdown-item">Services</a></li>
+                                    <li><a href="#pricing" class="dropdown-item">Pricing Plan</a></li>
+                                    <li><a href="#faq" class="dropdown-item">FAQ</a></li>
+                                    <li><a href="#blog" class="dropdown-item">Blog</a></li>
+                                    
                                 </ul>
                             </li>
                         </ul>
                     </div>
                     <div class="nav-right flex">
-                        <p>Call Us: <span>+8801306060606</span></p>
+                        <p>Call Us: <span>+8801518-951719</span></p>
                         <!-- Header BUttons -->
                         <i onclick="open_search()" class="fa-solid fa-magnifying-glass"></i>
                         <i class="fa-solid fa-bars"></i>
@@ -76,9 +72,9 @@
                     <div>
                         <!-- side menus -->
                         <ul>
-                            <li><a href="/" class="nav-link active">Home</a></li>
-                            <li><a href="/" class="nav-link active">About</a></li>
-                            <li><a href="/" class="nav-link active">Contact</a></li>
+                            <li><a href="#home" class="nav-link active">Home</a></li>
+                            <li><a href="#about" class="nav-link active">About</a></li>
+                            <li><a href="#contact" class="nav-link active">Contact</a></li>
                             <li class="pages"><a href="/">More</a></li>
                             <li class="collapse-btn">
                                 <a href="" class="nav-link plus_collapse" data-bs-toggle="collapse">
@@ -86,15 +82,10 @@
                                 </a>
                                 <div class="collapse" id="pages">
                                     <ul>
-                                        <li><a href="/" class="nav-link">Services</a></li>
-                                        <li><a href="" class="nav-link">Pricing Plan</a></li>
-                                        <li><a href="" class="nav-link">Portfolio</a></li>
-                                        <li><a href="" class="nav-link">Teams</a></li>
-                                        <li><a href="" class="nav-link">Testimonials</a></li>
-                                        <li><a href="" class="nav-link">FAQ</a></li>
-                                        <li><a href="" class="nav-link">Blog</a></li>
-                                        <li><a href="" class="nav-link">Comming Soon</a></li>
-                                        <li><a href="" class="nav-link">404</a></li>
+                                        <li><a href="#service" class="dropdown-item">Services</a></li>
+                                        <li><a href="#pricing" class="dropdown-item">Pricing Plan</a></li>
+                                        <li><a href="#faq" class="dropdown-item">FAQ</a></li>
+                                        <li><a href="#blog" class="dropdown-item">Blog</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -121,7 +112,7 @@
                         <button class="close_rightsidebar fa-solid fa-xmark"></button>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quaerat eaque maiores!</p>
-                    <a href="" class="btn_hover1">Discover More</a>
+                    <a href="#blog" class="btn_hover1">Discover More</a>
                     <hr>
                     <h4>Connected Details</h4>
                     <ul class="flex">
@@ -159,11 +150,12 @@
                             <hr>
                         </div>
                         <div class="center-data flex flex-col gap-1">
-                            <h1>DIGITAL SERVICE</h1>
-                            <h3>BUILDING YOUR DIGITALLY</h3>
+                            <h2>WE PROVIDE 3 DIFFERENT </h2>
+                            <h3>YOUTUBE CHANNEL CONTENT ID</h3>
+                            <h4>We cover Everything from YouTube</h4>
                             <div class="center-btn flex">
-                                <a href="" class="btn_hover1">Get Started</a>
-                                <a href="" class="btn_hover2">Dicover More</a>
+                                <a href="#contact" class="btn_hover1">Get Started</a>
+                                <a href="#blog" class="btn_hover2">Dicover More</a>
                             </div>
                         </div>
                     </div>
@@ -182,10 +174,9 @@
                             <figure>
                                 <img src="Images/icon/feature1.png" alt="img">
                             </figure>
-                            <h4>CUSTOMIZED SOLUTIONS</h4>
-                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum soluta, qui tenetur
-                                voluptas, praesentium eos expedita doloremque repellendus recusandae necessitatibus
-                                tempora! Quos, quidem eos ?</P>
+                            <h4>Music CMS</h4>
+                            <P>Artists or sound recording labels can apply for this service, which includes art, track management, detailed reporting, and comprehensive sound recording protection to safeguard and promote their content effectively.
+                                </P>
 
                         </div>
                     </div>
@@ -194,10 +185,8 @@
                             <figure>
                                 <img src="Images/icon/feature2.png" alt="img">
                             </figure>
-                            <h4>ROI-DRIVEN APPROCH</h4>
-                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum soluta, qui tenetur
-                                voluptas, praesentium eos expedita doloremque repellendus recusandae necessitatibus
-                                tempora! Quos, quidem eos ?</P>
+                            <h4>Entertainment CMS</h4>
+                            <P>If you are a gamer or a Tv Station owner or you are the media creator, and you want to add the protection to the highest level to your channel, you are the right place.</P>
                         </div>
                     </div>
                     <div class="header-card">
@@ -205,10 +194,8 @@
                             <figure>
                                 <img src="Images/icon/feature3.png" alt="img">
                             </figure>
-                            <h4>CREATIVE SOLUTIONS</h4>
-                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum soluta, qui tenetur
-                                voluptas, praesentium eos expedita doloremque repellendus recusandae necessitatibus
-                                tempora! Quos, quidem eos ?</P>
+                            <h4>Publishing CMS</h4>
+                            <P>If you are a Songwriter, Producer, and Creator, we can protect your publishing rights and claim your content, and you will make much more money. Our company is proud of your success.</P>
                         </div>
                     </div>
                     <div class="header-card">
@@ -216,10 +203,8 @@
                             <figure>
                                 <img src="Images/icon/feature4.png" alt="img">
                             </figure>
-                            <h4>EXPERT TEAM</h4>
-                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum soluta, qui tenetur
-                                voluptas, praesentium eos expedita doloremque repellendus recusandae necessitatibus
-                                tempora! Quos, quidem eos ?</P>
+                            <h4>DIGITAL SERVICES</h4>
+                            <P>YouTube CMS, MCN partnerships, website/app development, SEO, and digital distribution enable creators to increase visibility, engagement, and monetization, providing essential tools for a strong online presence and broader reach.</P>
                         </div>
                     </div>
                 </div>
@@ -237,12 +222,12 @@
                 </div>
                 <div class="logoipsum-slider sliderlogo">
 
-                    <figure><img src="images/home/logoipsum1.svg" alt=""></figure>
-                    <figure><img src="images/home/logoipsum2.svg" alt=""></figure>
-                    <figure><img src="images/home/logoipsum3.svg" alt=""></figure>
-                    <figure><img src="images/home/logoipsum4.svg" alt=""></figure>
-                    <figure><img src="images/home/logoipsum5.svg" alt=""></figure>
-                    <figure><img src="images/home/logoipsum6.svg" alt=""></figure>
+                    <figure><img src="images/home/partner1.png" alt=""></figure>
+                    <figure><img src="images/home/partner2.png" alt=""></figure>
+                    <figure><img src="images/home/partner3.png" alt=""></figure>
+                    <figure><img src="images/home/partner4.png" alt=""></figure>
+                    <!-- <figure><img src="images/home/logoipsum5.svg" alt=""></figure>
+                    <figure><img src="images/home/logoipsum6.svg" alt=""></figure> -->
                 </div>
                 <hr class="hr2">
             </div>
@@ -251,7 +236,7 @@
         <!-- ======END  OF 1.4 Logoipsum Section  ========-->
 
         <!-- ======= 1.5 About US Section =======-->
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="about-data flex-sb">
                     <div class="w-50">
@@ -260,18 +245,18 @@
                             <h5>ABOUT US</h5>
                         </div>
                         <h2>Explore our services and boost your online presence</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi porro </p>
+                        <p>Pani-Entertainment Ltd is a Bangladeshi YouTube Multi Channel Network (MCN). Which is dedicated to helping brands, creators and content owners maximize their reach and revenue on Youtube and Other’s Social Media Platform. </p>
                         <div class="flex gap-1 mt-15">
                             <i class="fa-solid fa-check"></i>
-                            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h5>
+                            <h5>YouTube CMS Partnership</h5>
                         </div>
                         <div class="flex gap-1 mt-15">
                             <i class="fa-solid fa-check"></i>
-                            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h5>
+                            <h5>Youtube MCN Partnership</h5>
                         </div>
                         <div class="flex mt-3 gap-20">
-                            <a href="#" class="btn_hover1">Get Started</a>
-                            <a href="#" class="btn_hover2">Discover More</a>
+                            <a href="#contact" class="btn_hover1">Get Started</a>
+                            <a href="#blog" class="btn_hover2">Discover More</a>
                         </div>
                     </div>
                     <div class="w-50 about-imgs flex flex-center">
@@ -299,206 +284,13 @@
 
 
         <!-- ======= 1.6 Galary Section =======-->
-        <section class="portfolio">
-            <div class="portfolio-1">
-                <div class="container">
-                    <div class="porto-center">
-                        <div class="w-50">
-                            <div class="flex gap-1">
-                                <hr class="gallary-hr1">
-                                <h5>PORTFOLIO</h5>
-                            </div>
-                            <h2 class="mt-15">Our Latest Project</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias voluptatum, voluptates
-                                modi iusto vitae voluptatem pariatur aliquam necessitatibus!</p>
-                        </div>
-                        <div class="flex w-100 flex-end">
-                            <a href="/" class="btn_hover2 flex-end">View all Projects</a>
-                        </div>
-                        <hr class="mt-3">
-                    </div> .
-                </div>
-            </div>
-            <div class="gallary"> 
-                <div class="ga-bg"></div>
-                <!-- overly -->
-                <span> </span>
-                <div class="container">
-                    <!-- tab links -->
-                    <div class="tab mt-15">
-                        <button class="tablinks active" onclick="open_img(event,'all')">ALL</button>
-                        <button class="tablinks" onclick="open_img(event,'design')">DESIGN</button>
-                        <button class="tablinks" onclick="open_img(event,'development')">DEVELOPMENT</button>
-                        <button class="tablinks" onclick="open_img(event,'branding')">BRANDING</button>
-                        <button class="tablinks" onclick="open_img(event,'ui_ux')">UI/UX</button>
-                        <!-- <button class="tablinks" onclick="open_img(event,'Marketing')">UI/UX</button> -->
-                        <button class="tablinks" onclick="open_img(event,'marketing')">MARKTETING</button>
-                        <button class="tablinks" onclick="open_img(event,'seo')">SEO</button>
-                    </div>
-                    <!-- Tab Content -->
-                    <div id="all" class="tabcontent" style="display: block;">
-                        <div class="flex flex-center">
-                            <div class="flex w-100">
-                                <div class="w-33">
-                                    <figure><img src="Images/home/all-gallary-3.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/all-gallary-6.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/all-gallary-7.png" alt=""></figure>
-                                </div>
-                                <div class="w-66">
-                                    <figure><img src="Images/home/all-gallary-1.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/all-gallary-2.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/all-gallary-6.png" alt="sm_img"></figure>
-                                    <figure><img src="Images/home/all-gallary-7.png" alt="sm_img"></figure>
-                                </div>
-                                <div class="w-66">
-                                    <figure><img src="Images/home/all-gallary-8.png" alt=""></figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="design" class="tabcontent">
-                        <div class="flex flex-center">
-                            <div class="flex w-100">
-                                <div class="w-33">
-                                    <figure><img src="Images/home/design-gallary-3.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/design-gallary-6.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/design-gallary-7.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/design-gallary-1.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/design-gallary-2.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/design-gallary-4.png" alt=""></figure>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div id="development" class="tabcontent">
-                        <div class="flex flex-center">
-                            <div class="flex w-100">
-                                <div class="w-33">
-                                    <figure><img src="Images/home/dev-gallary-3.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/dev-gallary-4.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/dev-gallary-5.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/dev-gallary-6.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/dev-gallary-7.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/dev-gallary-8.png" alt=""></figure>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div id="branding" class="tabcontent">
-                        <div class="flex flex-center">
-                            <div class="flex w-100">
-                                <div class="w-33">
-                                    <figure><img src="Images/home/brand-gallary-6.png" alt=""></figure>
-                                </div>
-                                <div class="w-66">
-                                    <figure><img src="Images/home/brand-gallary-8.png" alt=""></figure>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div id="ui_ux" class="tabcontent">
-                        <div class="flex flex-center">
-                            <div class="flex w-100">
-                                <div class="w-33">
-                                    <figure><img src="Images/home/ui-ux-gallary-3.png" alt=""></figure>
-                                </div>
-                                <div class="w-66">
-                                    <figure><img src="Images/home/ui-ux-gallary-4.png" alt=""></figure>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div id="marketing" class="tabcontent">
-                        <div class="flex flex-center">
-                            <div class="flex w-100">
-                                <div class="w-33">
-                                    <figure><img src="Images/home/market-gallary-1.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/market-gallary-2.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/market-gallary-3.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/market-gallary-4.png" alt=""></figure>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div id="seo" class="tabcontent">
-                        <div class="flex flex-center">
-                            <div class="flex w-100">
-                                <div class="w-33">
-                                    <figure><img src="Images/home/seo-gallary-4.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/seo-gallary-5.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/seo-gallary-6.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/seo-gallary-7.png" alt=""></figure>
-                                </div>
-                                <div class="w-33">
-                                    <figure><img src="Images/home/seo-gallary-8.png" alt=""></figure>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- </div> -->
-
-                    <div class="gallary-hr flex flex-end gap-1 mt-15">
-                        <h6>Creative Solution</h6>
-                        <hr>
-                    </div>
-                </div>
-            </div>
-        </section> 
 
         <!-- ======= END of 1.6 Galary Section =======-->
 
 
         <!-- ======= 1.7 Service Section =======-->
 
-        <section class="service">
+        <section id="service">
             <div class="service-1">
                 <div class="container">
                     <div class="service-data ">
@@ -511,27 +303,76 @@
                             <p class="mt-15">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae alias voluptas voluptates sit eaque? Fugiat natus ipsa nesciunt!</p>
                         </div>
                         <div class="w-33 mt-15 flex flex-end">
-                            <a href="/" class="btn_hover2">View All Services</a>
+                            <a href="#service" class="btn_hover2">View All Services</a>
                         </div>
                         <hr>
                     </div>
                     <div class="flex s-card">
                         <div class="service-card">
                             <figure><img src="Images/icon/slider1.png" alt="Slider1"></figure>
-                            <h3>UI/UX</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, labore dignissimos! Tempora obcaecati voluptatibus aliquam impedit perspiciatis iste.</p>
+                            <h3>YouTube CMS Partnership</h3>
+                            <p>
+                                Partnering with YouTube’s Content Management System (CMS) offers creators monetization opportunities, advanced analytics, content rights management tools like Content ID, and enhanced audience engagement, creating a comprehensive platform for content creation and growth.</p>
+                            <a href="/">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        
+                        <div class="service-card">
+                            <figure><img src="Images/icon/slider3.png" alt="Slider3"></figure>
+                            <h3>App Development</h3>
+                            <p>Mobile apps offer a direct and personalized channel for user engagement, providing convenience, faster access to services, and the potential for increased customer loyalty and brand recognition. </p>
+                            <a href="/">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+
+                        <div class="service-card">
+                            <figure><img src="Images/icon/slider2.png" alt="Slider2"></figure>
+                            <h3>Youtube MCN Partnership</h3>
+                            <p>A YouTube Multi-Channel Network (MCN) partnership offers creators benefits such as enhanced monetization opportunities, access to resources like music libraries and collaboration tools, and potential for increased visibility and growth through network support and promotion. </p>
+                            <a href="/">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- 2nd Flex CArd -->
+                    <div class="flex s-card">
+                        <div class="service-card">
+                            <figure><img src="Images/icon/slider2.png" alt="Slider2"></figure>
+                            <h3>Website Development</h3>
+                            <p>Building a website enhances online presence, credibility, and accessibility, allowing businesses to reach a global audience, showcase products/services, and establish a professional brand image.</p>
                             <a href="/">Read More <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                         <div class="service-card">
                             <figure><img src="Images/icon/slider2.png" alt="Slider2"></figure>
-                            <h3>Development</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, labore dignissimos! Tempora obcaecati voluptatibus aliquam impedit perspiciatis iste.</p>
+                            <h3>Facebook Page Management</h3>
+                            <p>Creators benefit from managing a Facebook Page by building a dedicated community, showcasing their work, accessing audience insights, and leveraging advertising tools to expand their reach and monetize content.</p>
                             <a href="/">Read More <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                         <div class="service-card">
-                            <figure><img src="Images/icon/slider3.png" alt="Slider3"></figure>
-                            <h3>Visual Design</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, labore dignissimos! Tempora obcaecati voluptatibus aliquam impedit perspiciatis iste.</p>
+                            <figure><img src="Images/icon/slider2.png" alt="Slider2"></figure>
+                            <h3>YouTube Content Syndication</h3>
+                            <p>YouTube content syndication involves distributing your videos across various platforms for increased reach and exposure. Benefits include expanding your audience, driving traffic back to your channel, and maximizing the visibility of your content through diverse online channels.
+                            </p>
+                            <a href="/">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- 3rd Flex CArd -->
+                    <div class="flex s-card">
+                        <div class="service-card">
+                            <figure><img src="Images/icon/slider2.png" alt="Slider2"></figure>
+                            <h3>Search Engine Optimization (SEO)</h3>
+                            <p>SEO (Search Engine Optimization) enhances website visibility on search engines, driving organic traffic by optimizing content, keywords, and technical aspects, improving rankings and user experience.
+                            </p>
+                            <a href="/">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        <div class="service-card">
+                            <figure><img src="Images/icon/slider2.png" alt="Slider2"></figure>
+                            <h3>Digital Distribution</h3>
+                            <p>Digital distribution refers to the online delivery or dissemination of digital media content, such as music, videos, software, or books. It allows creators and businesses to distribute their products or content to a global audience through digital platforms, reaching consumers via the internet rather than traditional physical channels
+                            </p>
+                            <a href="/">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        <div class="service-card">
+                            <figure><img src="Images/icon/slider2.png" alt="Slider2"></figure>
+                            <h3>Content Copyright Protection</h3>
+                            <p>We protect you from unauthorized use of content, ensuring your intellectual property rights are protected. We will defend you against any copyright claims. Contact us to get the right advice.</p>
                             <a href="/">Read More <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -551,10 +392,10 @@
                     <div class="w-66">
                         <div class="flex">
                             <hr class="exp-hr1 m-0">
-                            <h5>Experience</h5>
+                            <h5>REVIEW</h5>
                         </div>
-                        <h2>Glow Your Online Presence</h2>
-                        <p class="mt-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos perspiciatis quod accusamus quas vero, eligendi sit numquam saepe?</p>
+                        <h2>Our Client Review</h2>
+                        <p class="mt-1">Some of Our Clinet Gives US Some Revies About Services</p>
                     </div>
                     <div class="w-33 mt-3 flex flex-end">
                         <a href="/" class="btn_hover1 flex-end">Get Started</a>
@@ -576,8 +417,18 @@
                                     <h3>%</h3>
                                 </div>
                                 <div>
-                                    <h4>Cretive Aproach</h4>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid cum necessitatibus nostrum hic odio?</p>
+                                    <h4>Şeyda Erdoğan</h4>
+                                    <p>Hi! I'm Şeyda Erdoğan. I have been working for this mcn company for 7 years. I am associated with my youtube channel to this network Pani-Entertainment. I am very happy with their services.</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-1 ex-card">
+                                <div class="flex flex-center">
+                                    <h3>85</h3>
+                                    <h3>%</h3>
+                                </div>
+                                <div>
+                                    <h4>Pelin & Anıl</h4>
+                                    <p>Hello! We are Pelin & Anıl. We started our journey to this network (Pani-Entertainment) on 25 september 2017. I love their services.They always guide me. I Like their payment system. I am very glad to this network</p>
                                 </div>
                             </div>
                             <div class="flex gap-1 ex-card">
@@ -586,18 +437,8 @@
                                     <h3>%</h3>
                                 </div>
                                 <div>
-                                    <h4>Success Guruntee</h4>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid cum necessitatibus nostrum hic odio?</p>
-                                </div>
-                            </div>
-                            <div class="flex gap-1 ex-card">
-                                <div class="flex flex-center">
-                                    <h3>90</h3>
-                                    <h3>%</h3>
-                                </div>
-                                <div>
-                                    <h4>Brand Stratagy</h4>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid cum necessitatibus nostrum hic odio?</p>
+                                    <h4>Dilara Kurtulmuş</h4>
+                                    <p>Hello! I am Dilara Kurtulmus. I have been associated with Pani Entertainment for a long time. Their payment system, channel optimization and 24 hours support which is very useful for me..</p>
                                 </div>
                             </div>
                         </div>
@@ -641,7 +482,7 @@
                     </div>
                 </div>
                 <div class="flex flex-ceneter">
-                    <a href="" class="btn_hover2">Contact Now</a>
+                    <a href="#contact" class="btn_hover2">Contact Now</a>
                 </div>
             </div>
         </section>
@@ -650,150 +491,12 @@
 
 
         <!-- ======= 1.10 Team Section =======-->
-         <section class="team">
-            <div class="container">
-                <div class="flex team-center">
-                    <div class="w-66">
-                        <div class="flex gap-1">
-                            <div class="team-hr1">
-                                <h5>Our Team</h5>
-                            </div>
-                            <h2 class="mt-1">Meet our team of Professionals</h2>
-                            
-                        </div>
-                        <div class="w-33 mt-15 flex flex-end">
-                            <a href="/" class="btn_hover2">All Members</a>
-                        </div>
-                    </div>
-                   <div class="team-slider flex mt-15">
-                        <div class="team-img">
-                            <img src="Images/slider/team-slider1.png" alt="avatar">
-                            <div class="overlay">
-                                <div class="overlay_text">
-                                    <h3>Jane Doe</h3>
-                                    <h4>Designer</h4>
-                                    <div class="flex flex-center gap-1">
-                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-img">
-                            <img src="Images/slider/team-slider2.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay_text">
-                                    <h3>Katti Pairi</h3>
-                                    <h4>Seo Expert</h4>
-                                    <div class="flex flex-center gap-1">
-                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-img">
-                            <img src="Images/slider/team-slider3.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay_text">
-                                    <h3>Jhonny Coll</h3>
-                                    <h4>Developer</h4>
-                                    <div class="flex flex-center gap-1">
-                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-img">
-                            <img src="Images/slider/team-slider4.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay_text">
-                                    <h3>Anny Marrie</h3>
-                                    <h4>Youtuve CMS</h4>
-                                    <div class="flex flex-center gap-1">
-                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-img">
-                            <img src="Images/slider/team-slider1.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay_text">
-                                    <h3>Jane Doe</h3>
-                                    <h4>Designer</h4>
-                                    <div class="flex flex-center gap-1">
-                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-img">
-                            <img src="Images/slider/team-slider2.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay_text">
-                                    <h3>Katti Pairi</h3>
-                                    <h4>Seo Expert</h4>
-                                    <div class="flex flex-center gap-1">
-                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-img">
-                            <img src="Images/slider/team-slider3.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay_text">
-                                    <h3>Jhonny Coll</h3>
-                                    <h4>Developer</h4>
-                                    <div class="flex flex-center gap-1">
-                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-img">
-                            <img src="Images/slider/team-slider4.png" alt="">
-                            <div class="overlay">
-                                <div class="overlay_text">
-                                    <h3>Anny Marrie</h3>
-                                    <h4>Youtuve CMS</h4>
-                                    <div class="flex flex-center gap-1">
-                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                
-                </div>
-                <div class="team-btn">
-                    <div class="container flex flex-sb gap-2 flex-warp">
-                        <h4>Ask a Question to Our Amzing team , And get Get Response Quickly</h4>
-                        <a href="" class="btn_hover_2">Contact Now</a>
-                    </div>
-                </div>
-            </div>
-         </section>
+
          <!-- ======= END of 1.10 Team Section =======-->
 
 
         <!-- =======1.11 Pricing Section  =======-->
-         <section class="pricing p-relative">
+         <section id="pricing" class="pricing p-relative">
             <span></span>
             <div class="pricing-hr flex-gap-1">
                 <hr>
@@ -840,7 +543,7 @@
 
 
         <!-- =======1.12 FAQ Section  =======-->
-         <section class="faq p-relative">
+         <section id="faq"class="faq p-relative">
             <span></span>
             <div class="container">
                 <div class="flex flex-warp  gap-1">
@@ -858,23 +561,23 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button flex-sb">
-                                    WHAT KING OF DIGITAL SERVICE DO YOU PROVIDE?
+                                    What is Pani Entertainment?
                                     <img src="Images/icon/plus.png" alt="icon">
                                 </button>
                             </h2>
                             <div class="accordion-collapse">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, ipsam perspiciatis ad repellat laudantium deserunt mollitia impedit omnis.</p>
+                                <p>Pani Entertainment is a YouTube CMS MCN company that helps creators monetize their channels while providing them with a range of services to grow their online presence. By partnering with Pani Entertainment, creators gain access to a network of collaborators, tools to optimize their content, and the support they need to succeed.</p>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button flex-sb">
-                                    WHAT IS YOUR PROCESS FOR WORKING WITH CLIENTS?
+                                    How Does Pani Entertainment Work?
                                     <img src="Images/icon/plus.png" alt="icon">
                                 </button>
                             </h2>
                             <div class="accordion-collapse">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, ipsam perspiciatis ad repellat laudantium deserunt mollitia impedit omnis.</p>
+                                <p>Pani Entertainment works by providing creators with access to their YouTube CMS MCN. This allows creators to monetize their videos, gain access to premium advertising, and collaborate with other creators on the platform. In addition to these services, Pani Entertainment also provides creators with marketing support, analytics, and video optimization tools to help them grow their channels.</p>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -908,7 +611,7 @@
 
         <!-- =======1.13 Blog  Section =======-->
 
-        <section class="blog">
+        <section id="blog" class="blog">
             <div class="container">
                 <div class="flex blog-center">
                     <div class="w-66">
@@ -927,8 +630,8 @@
                     <div class="blog-card w-100">
                         <img src="Images/home/blog1.png" alt="img">
                         <div class="card-body">
-                            <h4>10 Must-Know digital marketing Trends in 2024</h4>
-                            <a href="#">Learn More</a>
+                            <h4>The Benefits of Partnering with Pani Entertainment</h4>
+                            <a href="https://www.blogger.com/about/?bpli=1">Learn More</a>
                         </div>
                     </div>
                     <div class="blog-card w-100">
@@ -955,7 +658,7 @@
 
         <!-- =======1.14 Footer  Section =======-->
 
-    <footer>
+    <footer id="contact">
         <div class="container">
             <div class="footer-hr flex flex-col">
                 <div class="flex gap-1">
