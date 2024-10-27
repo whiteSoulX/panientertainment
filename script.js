@@ -71,6 +71,86 @@ function close_search(){
 
         }
 
+
+        // Responsive Team Slider
+
+        $('.team-slider').slick({
+            arrows:false,
+            dots:true,
+            infinite:false,
+            autoplay:true,
+            speed:300,
+            slidesToShow:4,
+            slidesToScroll:1,
+            responsive:[{
+                breakpoint:1024,
+                settings:{
+                    slidesToShow:3,
+                    slidesToScroll:1,
+                    infinite:true,
+                    dots:true,
+                }
+            },
+            {
+                breakpoint:600,
+                settings:{
+                    slidesToShow:2,
+                    slidesToScroll:1,
+                }
+            },
+            {
+                breakpoint:400,
+                settings:{
+                    slidesToShow:1,
+                    slidesToScroll:1,
+                }
+            },
+]
+        })
+
+
+        // FAQ Section
+
+        document.addEventListener('DOMContentLoaded',function(){
+            let accordionButtons = document.querySelectorAll('.accordion-button');
+            let acoimg = document.querySelectorAll('accordion-button img');
+
+            accordionButtons.forEach(function(button,index){
+                button.addEventListener('click',function(){
+                    let collapse = this.parentElement.nextElementSibling;
+
+                    //Close all the other accordion items
+
+                    accordionButtons.forEach(function (otherButton,otherIndex){
+                        if(otherButton !== button){
+                            let otherCollapse = otherButton.parentElement.nextElementSibling;
+                            otherCollapse.style.maxHeight=null;
+
+                            // rEST THE IMAGES soruce Abd rotaion for other accorduan items
+
+                            acoimg[otherIndex].src = 'image/icon/plus.png';
+                            acoimg[otherIndex].style.transform = 'rotate(0deg)';
+                            otherButton.style.backgroundColor =  '#fff';
+
+                        }
+                    });
+                    //Toggle the clicked according item
+                    if(collapse.style.maxHeight){
+                        collapse.style.maxHeight = null;
+                        //reset the image source , rotaion , and background colur when collapsing
+
+                        acoimg[index].src = 'images/icon.plus.png';
+                        acoimg[index].style.transform = 'rotate(90deg)';
+                        button.style.backgroundColor = '';
+                    } else{
+                        //Change the image source ,set rotation and background color when expanding
+                        acoimg[index].src = 'images/icon/menus.png'
+                        acoimg[index].style.transform = "rotate(180deg)";
+                        button.style.backgroundColor = '#c1b0b5';
+                    }
+            })
+        })
+
         // Responsive logoipsum Slider
 
 $('.sliderlogo').slick({
