@@ -1663,3 +1663,437 @@ padding: 16px 38px 16px 38px !important;
 }
 
 /* ====== End of 1.10. team section ====== */
+
+/* ====== 1.11. Pricing section ====== */
+
+.pricing {
+    padding: 120px 0;
+    background-image: url("../Images/bg/pricing-bg.png");
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    z-index: 1;
+}
+
+#pricing {
+    background: #150725;
+    padding: 120px 0;
+}
+
+.pricing span {
+    background-color: #150725;
+    opacity: 0.9;
+    width: 100% !important;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.pricing-hr {
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    rotate: -90deg;
+}
+
+.pricing-hr h6 {
+    letter-spacing: 3.72px;
+    text-transform: uppercase;
+}
+
+.pricing-hr hr {
+    opacity: 1.25;
+    height: 1px;
+    color: #ffffffbf;
+    width: 60px;
+    border: 1px solid;
+}
+
+.pricing p {
+    padding: 0 30px;
+}
+
+.pricing-card div {
+    background: #3d0f41;
+    color: #ffffff;
+    padding: 70px;
+    transition: all 0.4s ease;
+    width: 100%;
+}
+
+.pricing-card div:hover {
+    transform: scale(1.07) !important;
+    transition: all 0.4s ease !important;
+    z-index: 3;
+}
+
+.pricing-card div:nth-child(2) {
+    transform: scale(1.09);
+    z-index: 2;
+    background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+}
+
+.pricing-card div:nth-child(2):hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+.pricing-card h3 {
+    color: #f57c48;
+}
+
+.pricing-card h2 {
+    margin-bottom: 30px;
+}
+
+.pricing-card div:nth-child(2) a {
+    /* background-color: #ffffff; */
+    /* background: inherit; */
+    color: #fff;
+}
+
+.pricing-card div:nth-child(2) a:hover {
+    color: #fff;
+}
+
+.pricing-card a {
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+
+/* ====== End of 1.11. Pricing section ====== */
+
+/* ====== 1.12. FAQ section ====== */
+
+/* ====== 1.12. FAQ section ====== */
+
+.faq {
+    background-image: url("../Images/bg/faq-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 120px 0;
+    z-index: 1;
+}
+
+#faq {
+    background: #150725;
+    padding: 120px 0;
+}
+
+.faq span {
+    background-color: #000000;
+    opacity: 0.6;
+    width: 100% !important;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.faq  h2 {
+    color: #ffffff;
+    padding: 0 55px 0 0;
+    text-align: center;
+}
+
+.faq h5 {
+    color: #ffffff;
+}
+
+.faq  p {
+    color: #ffffff;
+    padding: 0 123px 0 0;
+    text-align: left;
+}
+
+.faq .faq-hr1 {
+    opacity: 1.25;
+    height: 1px;
+    color: #b520a3;
+    width: 60px;
+    border: 1px solid;
+}
+
+.accordion-button {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    border: none;
+    color: #231f20;
+    font-weight: 700 !important;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+
+.accordion-button img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.accordion-collapse {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.accordion-collapse p {
+    color: #767676;
+    padding: 15px;
+    background-color: #fff;
+}
+
+/* ====== End of 1.12. FAQ section ====== */
+
+/* ====== 1.13. Blogs section ====== */
+
+.blog {
+    background: #150725;
+    padding: 120px 0;
+}
+
+.blog h5 {
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.blog h2 {
+    color: #ffffff;
+}
+
+.blog p {
+    color: #d3c9c1;
+    padding: 0 296px 0 0;
+}
+
+.blog .blog-hr1 {
+    opacity: 1.25;
+    height: 1px;
+    color: #b520a3;
+    width: 60px;
+    border: 1px solid;
+}
+
+.blog .btn_hover2 {
+    padding: 15px 30px;
+    border: 1.5px solid #ff8c4b;
+}
+
+.blog .row a {
+    border: 1.5px solid #ff8c4b;
+}
+
+.blog-card {
+    flex: 0 0 33.33%;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.blog-card img {
+    width: 100%;
+    transition: all 0.4s ease;
+}
+
+.blog-card:hover img {
+    transform: scale(1.05);
+    opacity: .8;
+    transition: all 0.4s ease;
+}
+
+.blog-card h4 {
+    color: #d3c9c1;
+    margin: 18px 0;
+    padding: 0 30px 0 0;
+}
+
+.blog-card a {
+    padding: 0 0 11px 0 !important;
+    border-bottom: 2px solid #ff8c4b;
+    letter-spacing: 2px;
+    background: linear-gradient(66.75deg, #f54a48 0.87%, #fa982f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ====== End of 1.13. Blogs section ====== */
+/* ====== 1.14. Footer section ====== */
+
+footer {
+    background: #150725;
+    padding: 120px 0 0 0;
+}
+
+.footer-hr .flex {
+    rotate: -90deg;
+}
+
+.footer-hr h6 {
+    color: #fff;
+    letter-spacing: 3.72px;
+    text-transform: uppercase;
+}
+
+.footer-hr h3 {
+    margin-top: 125px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.footer-hr p {
+    color: #ffffff;
+    padding: 0 300px;
+    margin: 20px 0 30px 0;
+}
+
+.footer-hr hr {
+    opacity: 1.25;
+    height: 1px;
+    color: #ffffffbf;
+    width: 60px;
+    border: 1px solid;
+}
+
+footer form {
+    border-radius: 50px;
+    border: 1px solid #6d2f8a;
+    background: #381a46;
+    width: 76%;
+    margin: auto;
+}
+
+footer form input {
+    border-radius: 50px;
+    background: #381a46;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    width: 68%;
+}
+
+footer form button {
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+footer form button:hover {
+    color: #7436bb;
+}
+
+#footer-message {
+    background: #fff;
+    color: green;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    display: none;  /* JavaSrcipt for this*/
+    transition: display all 0.3s ease;
+}
+
+.footer-menu {
+    background: linear-gradient(0deg, #471133 0%, #140921 100%);
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 77px;
+}
+
+.footer-menu img {
+    width: 100px;
+    filter: brightness(0) invert(1);
+}
+
+.footer-menu ul li a:hover {
+    color: #f54a48;
+}
+
+.footer-menu i {
+    font-size: 20px;
+    background: linear-gradient(0deg, #f54a48 0.5%, #fa982f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 10px;
+}
+
+.footer-menu i:hover {
+    background: linear-gradient(0deg, #f54a48 0.5%, #f54a48 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-menu h4 {
+    color: #f57c48;
+    margin-bottom: 26px;
+}
+
+.footer-menu a {
+    color: #fff;
+    padding: 0 !important;
+}
+
+.footer-menu .col-lg-4 li {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-menu p {
+    padding: 0 78px 0 0;
+}
+
+.copyright {
+    background: #150725;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.copyright a {
+    color: #ffffff;
+}
+
+/* ====== End of 1.14. Footer section ====== */
+
+
+
+
+/* button back to top */
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    padding: 17px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    color: #d12bec;
+    cursor: pointer;
+    z-index: 999999999999;
+}
+
+#backToTopBtn:hover {
+    color: #fff;
+}
+
+/* scrollbar full website */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
+    border-radius: 5px;
+}
