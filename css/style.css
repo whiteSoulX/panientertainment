@@ -655,7 +655,7 @@ aside .pages{
 .hero .container{
     position: relative;
 }
-.hero h1{
+.hero h2{
     color: #fff;
     letter-spacing: 3.75px;
     text-transform: uppercase;
@@ -821,7 +821,7 @@ padding: 16px 38px 16px 38px !important;
     margin: 0 auto;
 }
 .logoipsum img{
-    width: 170px;
+    width: 100px;
     margin: 0 auto;
 }
 .logoipsum .hr1{
@@ -844,7 +844,7 @@ padding: 16px 38px 16px 38px !important;
 }
 
 
-/* ====== 1.5. ABoutUS section ====== */
+/* ====== 1.5. ABout US section ====== */
 
 
 .about {
